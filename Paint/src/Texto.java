@@ -24,9 +24,10 @@ public class Texto extends Figura
         StringTokenizer quebrador = new StringTokenizer(s,":");
 
         quebrador.nextToken();
-			String text = quebrador.nextToken();
 			int   x  = Integer.parseInt(quebrador.nextToken());
 			int   y  = Integer.parseInt(quebrador.nextToken());
+
+			String text = quebrador.nextToken();
 
 			Color cor = new Color (Integer.parseInt(quebrador.nextToken()),  // R
 								   Integer.parseInt(quebrador.nextToken()),  // G
