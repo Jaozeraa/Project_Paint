@@ -856,6 +856,10 @@ public class Janela extends JFrame
                 figuras.add(new Retangulo(figura));
                 figuras.get(figuras.size() - 1).torneSeVisivel(pnlDesenho.getGraphics());
                 break;
+              case "a":
+                figuras.add(new Apagar(figura));
+                figuras.get(figuras.size() - 1).torneSeVisivel(pnlDesenho.getGraphics());
+                break;
             }
           }
           leitor.close();
