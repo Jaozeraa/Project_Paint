@@ -562,15 +562,23 @@ public class Janela extends JFrame
     {
           public void actionPerformed (ActionEvent e)    
           {
-            esperaPonto      		= true;
-            esperaCentro     		= false;
-            esperaRaio       		= false;
-            esperaInicioReta 		= false;
-            esperaFimReta    		= false;
-            esperaRaioElipse 		= false;
-            esperaCentroElipse 		= false;
-            esperaInicioPoligono 	= false;
-            esperaFimPoligono		= false;
+			esperaPonto				= true;
+			esperaInicioReta		= false;
+			esperaFimReta			= false; 
+			esperaCentro			= false;
+			esperaRaio				= false;
+			esperaCentroElipse		= false;
+			esperaRaioElipse		= false;
+			esperaInicioRetangulo	= false;
+			esperaFimRetangulo		= false; 
+			esperaInicioQuadrado	= false;
+			esperaFimQuadrado		= false;
+			esperaApagar			= false;
+			esperaTexto				= false;
+			esperaInicioPoligono	= false;
+			esperaEncherPoligono	= false;
+			esperaFimPoligono		= false;
+
 
               statusBar1.setText("Mensagem: clique o local do ponto desejado");
           }
@@ -580,15 +588,22 @@ public class Janela extends JFrame
     {
         public void actionPerformed (ActionEvent e)    
         {
-            esperaPonto       		= false;
-            esperaCentro      		= false;
-            esperaRaio        		= false;
-            esperaInicioReta  		= true;
-            esperaFimReta     		= false;
-            esperaRaioElipse  		= false;
-            esperaCentroElipse		= false;
-            esperaInicioPoligono 	= false;
-            esperaFimPoligono		= false;
+			esperaPonto				= false;
+			esperaInicioReta		= true;
+			esperaFimReta			= false; 
+			esperaCentro			= false;
+			esperaRaio				= false;
+			esperaCentroElipse		= false;
+			esperaRaioElipse		= false;
+			esperaInicioRetangulo	= false;
+			esperaFimRetangulo		= false; 
+			esperaInicioQuadrado	= false;
+			esperaFimQuadrado		= false;
+			esperaApagar			= false;
+			esperaTexto				= false;
+			esperaInicioPoligono	= false;
+			esperaEncherPoligono	= false;
+			esperaFimPoligono		= false;
 
             statusBar1.setText("Mensagem: clique o ponto inicial da reta");
         }
@@ -597,15 +612,22 @@ public class Janela extends JFrame
     {
         public void actionPerformed (ActionEvent e)    
         {
-            esperaPonto      		= false;
-            esperaCentro     		= true;
-            esperaRaio       		= false;
-            esperaInicioReta 		= false;
-            esperaFimReta    		= false;
-            esperaRaioElipse 		= false;
-            esperaCentroElipse 		= false;
-            esperaInicioPoligono 	= false;
-            esperaFimPoligono		= false;
+			esperaPonto				= false;
+			esperaInicioReta		= false;
+			esperaFimReta			= false; 
+			esperaCentro			= true;
+			esperaRaio				= false;
+			esperaCentroElipse		= false;
+			esperaRaioElipse		= false;
+			esperaInicioRetangulo	= false;
+			esperaFimRetangulo		= false; 
+			esperaInicioQuadrado	= false;
+			esperaFimQuadrado		= false;
+			esperaApagar			= false;
+			esperaTexto				= false;
+			esperaInicioPoligono	= false;
+			esperaEncherPoligono	= false;
+			esperaFimPoligono		= false;
 
             statusBar1.setText("Mensagem: clique o ponto central do circulo");
         }
@@ -615,15 +637,22 @@ public class Janela extends JFrame
     {
         public void actionPerformed (ActionEvent e)    
         {
-            esperaPonto      		= false;
-            esperaCentro     		= false;
-            esperaCentroElipse 		= true;
-            esperaRaio      		= false;
-            esperaInicioReta		= false;
-            esperaFimReta    		= false;
-            esperaRaioElipse 		= false;
-            esperaInicioPoligono 	= false;
-            esperaFimPoligono		= false;
+			esperaPonto				= false;
+			esperaInicioReta		= false;
+			esperaFimReta			= false; 
+			esperaCentro			= false;
+			esperaRaio				= false;
+			esperaCentroElipse		= true;
+			esperaRaioElipse		= false;
+			esperaInicioRetangulo	= false;
+			esperaFimRetangulo		= false; 
+			esperaInicioQuadrado	= false;
+			esperaFimQuadrado		= false;
+			esperaApagar			= false;
+			esperaTexto				= false;
+			esperaInicioPoligono	= false;
+			esperaEncherPoligono	= false;
+			esperaFimPoligono		= false;
 
             statusBar1.setText("Mensagem: clique o ponto central da elipse");
         }
@@ -633,15 +662,22 @@ public class Janela extends JFrame
     {
         public void actionPerformed (ActionEvent e)    
         {
-            esperaPonto      					= false;
-            esperaCentro     					= false;
-            esperaCentroElipse 					= false;
-            esperaRaio      					= false;
-            esperaInicioReta					= false;
-            esperaInicioRetangulo    			= true;
-            esperaFimRetangulo 					= false;
-            esperaInicioPoligono 				= false;
-            esperaFimPoligono					= false;
+			esperaPonto				= false;
+			esperaInicioReta		= false;
+			esperaFimReta			= false; 
+			esperaCentro			= false;
+			esperaRaio				= false;
+			esperaCentroElipse		= false;
+			esperaRaioElipse		= false;
+			esperaInicioRetangulo	= true;
+			esperaFimRetangulo		= false; 
+			esperaInicioQuadrado	= false;
+			esperaFimQuadrado		= false;
+			esperaApagar			= false;
+			esperaTexto				= false;
+			esperaInicioPoligono	= false;
+			esperaEncherPoligono	= false;
+			esperaFimPoligono		= false;
 
             statusBar1.setText("Mensagem: clique o ponto inicial do retangulo");
         }
@@ -651,15 +687,22 @@ public class Janela extends JFrame
     {
         public void actionPerformed (ActionEvent e)    
         {
-            esperaPonto      					= false;
-            esperaCentro     					= false;
-            esperaCentroElipse 					= false;
-            esperaRaio      					= false;
-            esperaInicioReta					= false;
-            esperaInicioQuadrado    			= true;
-            esperaFimQuadrado 					= false;
-            esperaInicioPoligono 				= false;
-            esperaFimPoligono					= false;
+			esperaPonto				= false;
+			esperaInicioReta		= false;
+			esperaFimReta			= false; 
+			esperaCentro			= false;
+			esperaRaio				= false;
+			esperaCentroElipse		= false;
+			esperaRaioElipse		= false;
+			esperaInicioRetangulo	= false;
+			esperaFimRetangulo		= false; 
+			esperaInicioQuadrado	= true;
+			esperaFimQuadrado		= false;
+			esperaApagar			= false;
+			esperaTexto				= false;
+			esperaInicioPoligono	= false;
+			esperaEncherPoligono	= false;
+			esperaFimPoligono		= false;
 
             statusBar1.setText("Mensagem: clique o ponto inicial do quadrado");
         }
@@ -669,19 +712,22 @@ public class Janela extends JFrame
     {
         public void actionPerformed (ActionEvent e)    
         {
-            esperaPonto      		= false;
-            esperaCentro     		= false;
-            esperaRaio       		= false;
-            esperaInicioReta 		= false;
-            esperaFimReta    		= false;
-            esperaRaioElipse 		= false;
-            esperaCentroElipse 		= false;
-            esperaInicioRetangulo   = false;
-            esperaFimRetangulo 		= false;
-            esperaInicioQuadrado    = false;
-            esperaFimQuadrado 		= false;
-            esperaInicioPoligono 	= true;
-            esperaFimPoligono		= false;
+			esperaPonto				= false;
+			esperaInicioReta		= false;
+			esperaFimReta			= false; 
+			esperaCentro			= false;
+			esperaRaio				= false;
+			esperaCentroElipse		= false;
+			esperaRaioElipse		= false;
+			esperaInicioRetangulo	= false;
+			esperaFimRetangulo		= false; 
+			esperaInicioQuadrado	= false;
+			esperaFimQuadrado		= false;
+			esperaApagar			= false;
+			esperaTexto				= false;
+			esperaInicioPoligono	= true;
+			esperaEncherPoligono	= false;
+			esperaFimPoligono		= false;
 
             statusBar1.setText("Mensagem: clique o ponto inicial do poligono");
         }
@@ -691,20 +737,22 @@ public class Janela extends JFrame
     {
         public void actionPerformed (ActionEvent e)    
         {
-            esperaPonto      		= false;
-            esperaCentro     		= false;
-            esperaRaio       		= false;
-            esperaInicioReta 		= false;
-            esperaFimReta    		= false;
-            esperaRaioElipse 		= false;
-            esperaCentroElipse 		= false;
-            esperaInicioRetangulo   = false;
-            esperaFimRetangulo 		= false;
-            esperaInicioQuadrado    = false;
-            esperaFimQuadrado 		= false;
-            esperaInicioPoligono 	= false;
-            esperaFimPoligono		= false;
-            esperaApagar			= true;
+			esperaPonto				= false;
+			esperaInicioReta		= false;
+			esperaFimReta			= false; 
+			esperaCentro			= false;
+			esperaRaio				= false;
+			esperaCentroElipse		= false;
+			esperaRaioElipse		= false;
+			esperaInicioRetangulo	= false;
+			esperaFimRetangulo		= false; 
+			esperaInicioQuadrado	= false;
+			esperaFimQuadrado		= false;
+			esperaApagar			= true;
+			esperaTexto				= false;
+			esperaInicioPoligono	= false;
+			esperaEncherPoligono	= false;
+			esperaFimPoligono		= false;
 
             statusBar1.setText("Mensagem: Arraste para apagar");
         }
@@ -714,20 +762,22 @@ public class Janela extends JFrame
     {
         public void actionPerformed (ActionEvent e)    
         {
-            esperaPonto      		= false;
-            esperaCentro     		= false;
-            esperaRaio       		= false;
-            esperaInicioReta 		= false;
-            esperaFimReta    		= false;
-            esperaRaioElipse 		= false;
-            esperaCentroElipse 		= false;
-            esperaInicioRetangulo   = false;
-            esperaFimRetangulo 		= false;
-            esperaInicioQuadrado    = false;
-            esperaFimQuadrado 		= false;
-            esperaInicioPoligono 	= false;
-            esperaFimPoligono		= false;
-            esperaTexto				= true;
+			esperaPonto				= false;
+			esperaInicioReta		= false;
+			esperaFimReta			= false; 
+			esperaCentro			= false;
+			esperaRaio				= false;
+			esperaCentroElipse		= false;
+			esperaRaioElipse		= false;
+			esperaInicioRetangulo	= false;
+			esperaFimRetangulo		= false; 
+			esperaInicioQuadrado	= false;
+			esperaFimQuadrado		= false;
+			esperaApagar			= false;
+			esperaTexto				= true;
+			esperaInicioPoligono	= false;
+			esperaEncherPoligono	= false;
+			esperaFimPoligono		= false;
 
 			text = JOptionPane.showInputDialog( " Digite o texto " );
 			
