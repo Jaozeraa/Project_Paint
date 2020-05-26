@@ -835,10 +835,8 @@ public class Janela extends JFrame
       {
         File arquivo = fileChooser.getSelectedFile();
         File arq;
-        if ((arquivo.getName().split("\\.").length > 1 ||
-         arquivo.getName().split("\\.").length <= 1 &&
-          !arquivo.getName().split("\\.")[1].equals("jvp")))
-        {
+        if ( arquivo.getName().split("\\.").length <= 1 ||
+          ( arquivo.getName().split("\\.").length > 1 && ! arquivo.getName().split("\\.")[1].equals("jvp"))) {
           arq = new File(arquivo.getAbsolutePath() + ".jvp");
         } 
         else
